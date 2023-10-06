@@ -1,0 +1,23 @@
+/* Necessárior realizar o calculo pois como no header colocamos uma height de 60px se deixarmos nosso erro com 100vh ele ira criar um scroll, por isso necessario realizar o calculo. */
+
+.erro {
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+.erro h1 {
+  font-size: 40px;
+}
+
+.erro a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #116feb;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  margin: 20px;
+  max-width: 13%;
+  transition: 0.5s;
+  border-radius: 5px;
+}
